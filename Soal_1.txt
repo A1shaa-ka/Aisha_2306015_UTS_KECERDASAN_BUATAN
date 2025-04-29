@@ -1,0 +1,30 @@
+Soal 1
+
+1. Aturan IF-THEN
+R1: IF daun menguning THEN serangan hama kutu daun.
+R2: IF terdapat bercak hitam THEN serangan hama jamur.
+R3: IF daun berlubang THEN serangan hama ulat.
+R4: IF tanaman layu THEN serangan hama nematoda.
+
+2. Logika proposisional
+P1 -> H1
+(Jika daun menguning maka kemungkinan hama kutu daun)
+
+P2 -> H2
+(Jika terdapat bercak hitam maka kemungkinan jamur daun)
+
+P3 -> H3
+(Jika daun berlubang maka kemungkinan hama ulat)
+
+P4 -> H4
+(Jika tanaman layu maka kemungkinan infeksi bakteri)
+
+3. Penjelasan alur inferensi input -> output
+- Petani mengisi kondisi tanaman
+- sistem mengecek kondisi satu per satu:
+ - jika daun menguning maka tanaman terkena kutu daun
+ - jika tanaman memiliki bercak hitam maka tanaman terkena jamur
+ - jika daun tanaman berlubang maka tanaman terkena serangan ulat
+ - jika tanaman layu maka tanaman terkena serangan nematoda
+- jika tidak ada gejala apapun maka tanaman baik-baik saja
+- output akhirnya adalah nama hama berdasarkan kondisi tanaman
